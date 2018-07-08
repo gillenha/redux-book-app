@@ -8,9 +8,10 @@ import BookDetail from '../containers/book-detail';
 export default class App extends Component {
 	render() {
 		return (
-			<div>
+			<div className="flex flex-column">
+			<h1 className="tc">My Favorite Books</h1>
 				<BookList />
-				<BookDetail />
+				<BookDetail className='tc' />
 			</div>
 		);
 	}

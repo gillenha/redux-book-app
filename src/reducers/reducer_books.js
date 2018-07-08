@@ -1,8 +1,9 @@
 export default function() {
 	return [
-		{ title: 'Javascript: The Good Parts', pages: 101 },
-		{ title: 'Harry Potter', pages: 546 },
-		{ title: 'The Dark Tower', pages: 643 },
-		{ title: 'Eloquent Ruby', pages: 1 }
+		{ title: 'The Wheel of Time: The Eye of the World', author: 'Robert Jordan', pages: 814 },
+		{ title: 'Shogun', author: 'James Clavell', pages: 1152 },
+		{ title: 'Conspiracy', author: 'Ryan Holiday', pages: 307 },
+		{ title: 'Musashi', author: 'Eiji Yoshikawa', pages: 984 },
+		{ title: 'The Battle Cry of Freedom', author: 'James McPherson', pages: 904 }
 	]
 }
