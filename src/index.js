@@ -1,15 +1,15 @@
-import React, { Component } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './components/app';
+import reducers from './reducers';
 import './index.css';
+import { Provider } from 'react-redux';
+import { createStore, applyMiddleware } from 'redux';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="">
-        <p>React Simple Starter</p>
-      </div>
-    );
-  }
-}
+const createStoreWithMiddleware = applyMiddleware()(createStore);
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(
+  <Provider store={createStoreWithMiddleware(reducers)}>
+    <App />
+  </Provider>
+  , document.getElementById('root'));
