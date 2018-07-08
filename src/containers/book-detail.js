@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import './book-list.css';
 
 class BookDetail extends Component {
 	render() {

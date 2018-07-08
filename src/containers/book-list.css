@@ -2,3 +2,7 @@
 	display: block;
 	margin: 0 auto;
 }
+
+.list-group-item {
+	margin-left: 0;
+}
