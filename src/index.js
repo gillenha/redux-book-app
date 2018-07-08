@@ -5,6 +5,7 @@ import reducers from './reducers';
 import './index.css';
 import { Provider } from 'react-redux';
 import { createStore, applyMiddleware } from 'redux';
+import 'tachyons';
 
 const createStoreWithMiddleware = applyMiddleware()(createStore);
 
