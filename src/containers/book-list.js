@@ -11,7 +11,7 @@ class BookList extends Component {
 					<li 
 						key={book.title} 
 						onClick={() => this.props.selectBook(book)}
-						className="list-group-item">
+						className="list-group-item dim grow f1-ns pointer ">
 						{book.title}
 					</li>
 				);
@@ -20,7 +20,7 @@ class BookList extends Component {
 
 	render() {
 		return(
-			<ul className="list-group col-sm-4 pa3">
+			<ul className="list-group col-sm-4">
 				{this.renderList()}
 			</ul>
 		)

@@ -7,10 +7,11 @@ class BookDetail extends Component {
 			return <div className="pa3 tc">Select a book to get started!</div>;
 		}
 		return (
-			<div className="tc">
+			<div className="tc col-sm-4 list-group">
 				<h3>{this.props.book.title}</h3>
 				<div>author: {this.props.book.author}</div>
 				<div>pages: {this.props.book.pages}</div>
+				<div>{this.props.book.about}</div>
 			</div>
 		);
 	}

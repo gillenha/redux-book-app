@@ -1,9 +1,9 @@
 export default function() {
 	return [
-		{ title: 'The Wheel of Time: The Eye of the World', author: 'Robert Jordan', pages: 814 },
-		{ title: 'Shogun', author: 'James Clavell', pages: 1152 },
-		{ title: 'Conspiracy', author: 'Ryan Holiday', pages: 307 },
-		{ title: 'Musashi', author: 'Eiji Yoshikawa', pages: 984 },
-		{ title: 'The Battle Cry of Freedom', author: 'James McPherson', pages: 904 }
+		{ title: 'The Wheel of Time: The Eye of the World', author: 'Robert Jordan', pages: 814, about: 'The Wheel of Time turns and Ages come and go, leaving memories that become legend. Legend fades to myth, and even myth is long forgotten when the Age that gave it birth returns again. In the Third Age, an Age of Prophecy, the World and Time themselves hang in the balance. What was, what will be, and what is, may yet fall under the Shadow.' },
+		{ title: 'Shogun', author: 'James Clavell', pages: 1152, about: 'Here is the world-famous novel of Japan that is the earliest book in James Clavell’s masterly Asian saga. Set in the year 1600, it tells the story of a bold English pilot whose ship was blown ashore in Japan, where he encountered two people who were to change his life: a warlord with his own quest for power, and a beautiful interpreter torn between two ways of life and two ways of love.' },
+		{ title: 'Conspiracy', author: 'Ryan Holiday', pages: 307, about: 'A stunning story about how power works in the modern age--the book the New York Times called "one helluva page-turner" and The Sunday Times of London celebrated as "riveting...an astonishing modern media conspiracy that is a fantastic read."' },
+		{ title: 'Musashi', author: 'Eiji Yoshikawa', pages: 984, about: 'The classic samurai novel about the real exploits of the most famous swordsman. Miyamoto Musashi was the child of an era when Japan was emerging from decades of civil strife. Lured to the great Battle of Sekigahara in 1600 by the hope of becoming a samurai--without really knowing what it meant--he regains consciousness after the battle to find himself lying defeated, dazed and wounded among thousands of the dead and dying. On his way home, he commits a rash act, becomes a fugitive and brings life in his own village to a standstill--until he is captured by a weaponless Zen monk.' },
+		{ title: 'The Battle Cry of Freedom', author: 'James McPherson', pages: 904, about: 'This authoritative volume makes sense of that vast and confusing "second American Revolution" we call the Civil War, a war that transformed a nation and expanded our heritage of liberty.' }
 	]
 }
